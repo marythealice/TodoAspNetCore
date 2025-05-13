@@ -1,0 +1,10 @@
+POST  https://localhost:7085/todoitems/
+Content-Type: application/json
+
+{
+    "isComplete": false,
+    "name":"Walk the dogs"
+}
+
+###
+GET https://localhost:7085/todoitems/
